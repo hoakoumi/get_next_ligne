@@ -1,11 +1,11 @@
-                                                           # get_next_ligne
+                                          # get_next_ligne
                                                                 
 The goal of this project is to create a function that returns a line read from a file descriptor using the read function and the concept of static variables.
 
-                                                           # Static variable
+                                          # Static variable
 A static variable is a variable that is declared using the static keyword inside a function or at the file level in a C or C++ program. When a variable is declared as static, it is allocated a fixed amount of memory that persists throughout the lifetime of the program. Static variables declared inside a function are different from local variables declared inside the function. Unlike local variables, static variables are not destroyed when the function exits. Instead, they retain their values across multiple function calls.
 
-                                                            # Read function
+                                           # Read function
 The read function is a system call in Unix and Unix-like operating systems that is used to read data from a file descriptor. The function prototype for read is defined in the unistd.h header file and has the following form: 
                                             ssize_t read(int fd, void *buf, size_t count);
 Here's what each of the parameters mean:
